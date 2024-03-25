@@ -8,7 +8,9 @@ import com.development.myapps.adapter.ListTransactionAdapter
 import com.development.myapps.databinding.ActivityListTransactionBinding
 import com.development.myapps.databinding.ActivityLoginBinding
 import com.development.myapps.model.TransactionModel
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class ListTransactionActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityListTransactionBinding

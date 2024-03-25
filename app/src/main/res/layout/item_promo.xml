@@ -2,27 +2,20 @@
     <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        app:cardCornerRadius="8dp"
-        android:layout_marginBottom="10dp">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <LinearLayout
-            android:padding="16dp"
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingHorizontal="20dp"
-            android:paddingVertical="16dp">
+            android:layout_height="wrap_content">
 
             <ImageView
-                android:layout_width="200dp"
-                android:layout_height="100dp"
-                android:src="@drawable/bgc"
+                android:id="@+id/ivGambar"
+                android:layout_width="220dp"
+                android:layout_height="125dp"
+                android:src="@drawable/promo4"
                 />
-
-
-
         </LinearLayout>
 
 </androidx.cardview.widget.CardView>

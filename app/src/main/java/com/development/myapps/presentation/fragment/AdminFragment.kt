@@ -7,7 +7,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.development.myapps.databinding.FragmentAdminBinding
 import com.development.myapps.databinding.FragmentDashboardBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class AdminFragment : Fragment() {
     private var _binding : FragmentAdminBinding? = null
     private val binding get() = _binding!!

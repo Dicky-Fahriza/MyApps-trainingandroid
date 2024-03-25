@@ -17,7 +17,9 @@ import com.development.myapps.presentation.fragment.MessageFragment
 import com.development.myapps.utiles.ConfirmationDialogUtil
 import com.development.myapps.utiles.SharedPrefHelper
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class HomeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityHomeBinding
 

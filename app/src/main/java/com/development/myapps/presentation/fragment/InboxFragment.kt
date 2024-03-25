@@ -9,8 +9,9 @@ import com.development.myapps.adapter.ListTransactionAdapter
 import com.development.myapps.databinding.FragmentDashboardBinding
 import com.development.myapps.databinding.FragmentInboxBinding
 import com.development.myapps.model.TransactionModel
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class InboxFragment : Fragment() {
     private var _binding : FragmentInboxBinding? = null
     private val binding get() = _binding!!

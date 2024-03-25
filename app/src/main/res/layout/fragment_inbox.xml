@@ -4,7 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Inbox"
+        android:background="@drawable/gradient_baground"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:layout_gravity="start"
+        android:paddingLeft="20dp"
+        android:textSize="22dp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvListTransaction"

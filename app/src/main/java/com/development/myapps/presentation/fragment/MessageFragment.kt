@@ -7,7 +7,9 @@ import com.development.myapps.base.BaseFragment
 import com.development.myapps.databinding.FragmentMessageBinding
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MessageFragment : BaseFragment<FragmentMessageBinding>() {
 
     private var adapterMessage : MessageTabAdapter? = null

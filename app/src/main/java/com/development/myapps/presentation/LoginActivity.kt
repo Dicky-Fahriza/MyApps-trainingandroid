@@ -7,8 +7,10 @@ import androidx.appcompat.app.AppCompatActivity
 import com.development.myapps.adapter.ListTransactionAdapter
 import com.development.myapps.databinding.ActivityLoginBinding
 import com.development.myapps.utiles.SharedPrefHelper
+import dagger.hilt.android.AndroidEntryPoint
 import java.util.UUID
 
+@AndroidEntryPoint
 class LoginActivity : AppCompatActivity() {
 
 //    private lateinit var binding: ActivityLoginBinding

@@ -6,7 +6,9 @@ import androidx.fragment.app.Fragment
 import com.development.myapps.base.BaseFragment
 import com.development.myapps.databinding.FragmentHistoryBinding
 import com.development.myapps.databinding.FragmentMessageBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class HistoryFragment : BaseFragment<FragmentHistoryBinding>() {
     override fun inflateBinding(
         inflater: LayoutInflater,

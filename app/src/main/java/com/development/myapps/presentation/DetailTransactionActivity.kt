@@ -10,7 +10,9 @@ import com.development.myapps.R
 import com.development.myapps.databinding.ActivityDetailTransactionBinding
 import com.development.myapps.model.TransactionModel
 import com.development.myapps.presentation.ListTransactionActivity.Companion.TRANSACTION_KEY
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class DetailTransactionActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityDetailTransactionBinding
